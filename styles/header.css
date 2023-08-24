@@ -1,0 +1,32 @@
+a {
+    text-decoration: none;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4em;
+    background-color: rgb(230, 133, 173);
+}
+
+.cabecalho__botoes {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 100;
+    color: white;
+    position: relative;
+}
+
+.cabecalho__botoes:hover{
+    color: black;
+}
+
+
+.imagem__cabecalho {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10%;
+}
+
