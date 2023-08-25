@@ -6,7 +6,7 @@ a {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 4em;
+    padding: 3.5em;
     background-color: rgb(230, 133, 173);
 }
 
@@ -16,6 +16,26 @@ a {
     font-weight: 100;
     color: white;
     position: relative;
+}
+
+.cabecalho__botoes_caes {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 100;
+    color: white;
+    position: relative;
+}
+
+.cabecalho__botoes_gatos {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 100;
+    color: white;
+    position: relative;
+}
+
+.cabecalho__botoes_link:hover {
+    color: black;
 }
 
 .cabecalho__botoes:hover{
@@ -30,3 +50,44 @@ a {
     width: 10%;
 }
 
+
+.cabecalho__lista {
+    display: flex;
+    position: relative;
+    gap: 10em;    
+}
+
+.menu-lista {
+    position: absolute;
+    background-color: rgb(230, 133, 173);
+    margin-bottom: -10em;
+    border-radius: 20px;
+    z-index: 1;
+    width: auto;
+}
+
+.menu__racas {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu__racas li {
+    margin: 5px 0;
+ }
+ 
+.menu__caes a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-size: 18px;
+ }
+
+.menu__gatos a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-size: 18px;
+ }

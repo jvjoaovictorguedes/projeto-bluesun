@@ -8,12 +8,36 @@
 </head>
 <body>
    <hader class="cabecalho">
-      <a class='cabecalho__botoes' href="index.html">Home</a>
-      <a class='cabecalho__botoes' href="caes.html">Cães</a>
-      <a class='cabecalho__botoes' href="gatos.html">Gatos</a>
+      <ul id="menu-cabecalho" class="cabecalho__lista">
+         <li id="menu-principal" class="cabecalho__home">
+            <a class='cabecalho__botoes' href="index.html">Home</a>
+         </li>
+         <li id="menu-caes" class="cabecalho__caes">
+            <a class='cabecalho__botoes_caes' href="./pages/caes.html">Cães</a>
+         </li>
+         <li id="menu-gatos" class="cabecalho__gatos">
+            <a class='cabecalho__botoes_gatos' href="./pages/gatos.html">Gatos</a>
+         </li>
+         <li id="menu-sobre" class="cabecalho__sobre">
+            <a class="cabecalho__botoes" href="./pages/sobre.html">Sobre o projeto</a>
+         </li>
+      </ul>
+      <div class="menu-lista">
+         <ul class="menu__caes" id="racasCao">
+            <li><a href="#">Golden Retriever</a></li>
+            <li><a href="#">Labrador</a></li>
+            <li><a href="#">Poodle</a></li>
+         </ul>
+         <ul class="menu__gatos" id="racasGato">
+            <li><a href="#">Siamês</a></li>
+            <li><a href="#">Persa</a></li>
+            <li><a href="#">Maine Coon</a></li>
+         </ul>
+      </div>
       <img src="./image/caes_gatos.png" class="imagem__cabecalho" alt="cão e gato">
    </hader>
-   <main></main>
+   <main>
+   </main>
    <footer></footer>
    <script src="script.js"></script>
 </body>
