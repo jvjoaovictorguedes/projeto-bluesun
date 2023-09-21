@@ -3,13 +3,9 @@ a {
     color: rgb(85, 79, 79);
 }
 
-body {
-    height: 1920px;
-}
-
 .cabecalho {
-    background-color: #234bc4;
-    padding: 2em;
+    background-image: linear-gradient(to left, #11308C, #0E2773, #C4D0F2, #F2F2F2);
+    padding: 1.5em;
 }
 
 .cabecalho__menu {

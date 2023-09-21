@@ -1,8 +1,8 @@
 .banner {
-    background-color: #F2A007;
+    background-image: linear-gradient(to right, #D98F07, #F28907, #f5cf88, #eed7ae, #F2F2F2);
     color: #0E2773;
     text-align: center;
-    padding: 2.5em 2em;
+    padding: 2em 2em;
     font-family: Arial, Helvetica, sans-serif;
 }
 

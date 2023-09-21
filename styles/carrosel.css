@@ -1,0 +1,35 @@
+#carrosel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    gap: 20px;
+}
+
+.carrosel_titulo {
+    text-align: center;
+    margin: 15px;
+    font-weight: 500px;
+    color: #0E2773;
+}
+.carrosel_itens {
+    display: flex;
+    flex-direction: column;
+}
+
+picture > a:hover {
+    filter:blur(10px)
+}
+
+.carrosel_texto {
+    border: 2px solid black;
+    border-radius: 0px 0px 15px 15px;
+    padding: 20px;
+    background-color: #FFA808;
+}
+
+.carrosel_texto_secundario {
+    display: flex;
+    font-size: 10px;
+    text-align: right;
+}
