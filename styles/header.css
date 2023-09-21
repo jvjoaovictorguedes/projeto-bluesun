@@ -3,8 +3,12 @@ a {
     color: rgb(85, 79, 79);
 }
 
+body {
+    height: 1920px;
+}
+
 .cabecalho {
-    background-color: aqua;
+    background-color: #234bc4;
     padding: 2em;
 }
 
@@ -12,10 +16,12 @@ a {
     list-style: none;
     padding: 0;
     display: none;
+    color: white;
+    text-decoration: none;
 }
 
 .cabecalho__menu.active {
-    display: block; /* Mostra quando está ativo */
+    display: block;
 }
 
 .menu__itens {
@@ -23,11 +29,11 @@ a {
 }
 
 .menu__hamburguer {
-    display: none; /* Inicia escondido */
+    display: none;
     cursor: pointer;
-    height: 100px;
-    width: 100px;
 }
+
+
 
 .juncao {
     display: flex;
@@ -36,11 +42,11 @@ a {
 
 @media (max-width: 768px) {
     .menu__hamburguer {
-        display: block; /* Mostra em telas menores */
+        display: block;
     }
 
     .cabecalho__menu.active {
-        display: flex; /* Altera para flex quando está ativo */
+        display: flex;
         flex-direction: column;
     }
 }

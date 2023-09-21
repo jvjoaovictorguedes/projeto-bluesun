@@ -1,0 +1,32 @@
+.banner {
+    background-color: #F2A007;
+    color: #0E2773;
+    text-align: center;
+    padding: 2.5em 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner_titulo {
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.banner_texto {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.banner_pesquisa {
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 24px;
+    width: 50%;
+    padding: 0.6em;
+}
+
+.banner_pesquisa::placeholder {
+    background: url(../image/icons8-pesquisar-15.png) no-repeat;
+    text-align: center;
+    background-position: 1em;
+}
